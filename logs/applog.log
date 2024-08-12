@@ -1,0 +1,72 @@
+[INFO] 12-08-2024 10:21:06 [main] [LogUtils] - ================ BEFORE ALL ================
+[INFO] 12-08-2024 10:21:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-08-2024 10:21:06 [main] [LogUtils] - {TARGET=local, extent.reporter.spark.prefix.device=@device_, DELETE_TEMP_FOLDER=no, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, screenshot.rel.path=/reports/CucumberExtentReports/images/, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, screenshot.dir=reports/CucumberExtentReports/images/, TELEGRAM_TOKEN=, extent.reporter.spark.prefix.author=@author_, extent.reporter.spark.enable.device=true, EXTENT_REPORT_PDF=PdfReport.pdf, VIDEO_RECORD=no, PASSWORD=T+wyT5u9cOelDJbBWNgxLw, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReport, extent.reporter.spark.start=true, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, REPORT_TITLE=Report | Automation Framework Cucumber | TestNG, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber | TestNG, extent.reporter.spark.out=reports/CucumberExtentReports/CucumberExtentReports.html, extent.reporter.pdf.start=false, extent.reporter.excel.out=reports/ExcelReport/ExtentExcel.xlsx, HEADLESS=false, REMOTE_URL=localhost, extent.reporter.spark.vieworder=dashboard,test,category,author,device,log,exception, extent.reporter.pdf.out=reports/CucumberExtentReports/CucumberExtentPdfReport.pdf, SCREENSHOT_FAILED_STEPS=yes, SCREENSHOT_ALL_STEPS_DETAIL=no, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, extent.reporter.excel.start=false, extent.reporter.spark.enable.author=true, JSON_DATA_FILE_PATH=src/test/resources/config/config.json, ACTIVE_PAGE_LOADED=true, URL_CRM=https://rise.anhtester.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=yes, ZIP_FOLDER_PATH=reports/CucumberExtentReports, extent.reporter.spark.base64imagesrc=true, ZIP_FOLDER=no}
+[INFO] 12-08-2024 10:21:08 [main] [LogUtils] - Running Scenario Name: Login success
+[INFO] 12-08-2024 10:21:09 [main] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 12-08-2024 10:21:10 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:21:10 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:21:10 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:21:10 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:21:11 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 12-08-2024 10:21:11 [main] [LogUtils] - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 12-08-2024 10:21:11 [main] [LogUtils] - Verify Equals: https://cms.anhtester.com/admin CONTAINS /admin
+[INFO] 12-08-2024 10:21:11 [main] [LogUtils] - Verify element present By.xpath: //span[normalize-space()='Products']
+[INFO] 12-08-2024 10:21:12 [main] [LogUtils] - Running Scenario Name: Login failed
+[INFO] 12-08-2024 10:21:13 [main] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 12-08-2024 10:21:13 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:21:13 [main] [LogUtils] - Set text danghoanghuy.0910@gmail.com on By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:21:13 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:21:13 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - Verify element present By.xpath: //div [@data-notify='container']
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - ================ AFTER ALL ================
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - ****************************************
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - Send Email - START
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - ****************************************
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - File name: D:\ATFWCucumberTestNG\reports/CucumberExtentReports\ExtentReport.html
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - count_totalTCs: 2
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - count_passedTCs: 2
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 12-08-2024 10:21:14 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 12-08-2024 10:21:17 [main] [LogUtils] - count_totalTCs: 2
+[INFO] 12-08-2024 10:21:17 [main] [LogUtils] - count_passedTCs: 2
+[INFO] 12-08-2024 10:21:17 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 12-08-2024 10:21:17 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 12-08-2024 10:21:17 [main] [LogUtils] - ********* RUN STARTED *********
+[INFO] 12-08-2024 10:21:17 [main] [LogUtils] - ********* RUN FINISHED *********
+[INFO] 12-08-2024 10:58:30 [main] [LogUtils] - ================ BEFORE ALL ================
+[INFO] 12-08-2024 10:58:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-08-2024 10:58:30 [main] [LogUtils] - {TARGET=local, extent.reporter.spark.prefix.device=@device_, DELETE_TEMP_FOLDER=no, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, screenshot.rel.path=/reports/CucumberExtentReports/images/, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=CucumberExtentReports.zip, WAIT_DEFAULT=5, REMOTE_PORT=4444, screenshot.dir=reports/CucumberExtentReports/images/, TELEGRAM_TOKEN=, extent.reporter.spark.prefix.author=@author_, extent.reporter.spark.enable.device=true, EXTENT_REPORT_PDF=PdfReport.pdf, VIDEO_RECORD=no, PASSWORD=T+wyT5u9cOelDJbBWNgxLw, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReport, extent.reporter.spark.start=true, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/CucumberExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, REPORT_TITLE=Report | Automation Framework Cucumber | TestNG, AUTHOR=Anh Tester, EXCEL_DATA_FILE_PATH=src/test/resources/testdata/ClientsDataExcel.xlsx, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Cucumber | TestNG, extent.reporter.spark.out=reports/CucumberExtentReports/CucumberExtentReports.html, extent.reporter.pdf.start=false, extent.reporter.excel.out=reports/ExcelReport/ExtentExcel.xlsx, HEADLESS=false, REMOTE_URL=localhost, extent.reporter.spark.vieworder=dashboard,test,category,author,device,log,exception, extent.reporter.pdf.out=reports/CucumberExtentReports/CucumberExtentPdfReport.pdf, SCREENSHOT_FAILED_STEPS=yes, SCREENSHOT_ALL_STEPS_DETAIL=no, TXT_FILE_PATH=src/test/resources/testdata/TxtFileData.txt, extent.reporter.excel.start=false, extent.reporter.spark.enable.author=true, JSON_DATA_FILE_PATH=src/test/resources/config/config.json, ACTIVE_PAGE_LOADED=true, URL_CRM=https://rise.anhtester.com/signin, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=yes, ZIP_FOLDER_PATH=reports/CucumberExtentReports, extent.reporter.spark.base64imagesrc=true, ZIP_FOLDER=no}
+[INFO] 12-08-2024 10:58:32 [main] [LogUtils] - Running Scenario Name: Login success
+[INFO] 12-08-2024 10:58:33 [main] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 12-08-2024 10:58:33 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:58:34 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:58:34 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:58:34 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:58:35 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 12-08-2024 10:58:35 [main] [LogUtils] - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 12-08-2024 10:58:35 [main] [LogUtils] - Verify Equals: https://cms.anhtester.com/admin CONTAINS /admin
+[INFO] 12-08-2024 10:58:35 [main] [LogUtils] - Verify element present By.xpath: //span[normalize-space()='Products']
+[INFO] 12-08-2024 10:58:36 [main] [LogUtils] - Running Scenario Name: Login failed
+[INFO] 12-08-2024 10:58:36 [main] [LogUtils] - Open website with URL: https://cms.anhtester.com/login
+[INFO] 12-08-2024 10:58:36 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:58:37 [main] [LogUtils] - Set text danghoanghuy.0910@gmail.com on By.xpath: //input[@id='email']
+[INFO] 12-08-2024 10:58:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:58:37 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 12-08-2024 10:58:37 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 12-08-2024 10:58:37 [main] [LogUtils] - Verify element present By.xpath: //div [@data-notify='container']
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - ================ AFTER ALL ================
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - ****************************************
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - Send Email - START
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - ****************************************
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - File name: D:\CucumberProject\reports/CucumberExtentReports\ExtentReport.html
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - count_totalTCs: 2
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - count_passedTCs: 2
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 12-08-2024 10:58:38 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 12-08-2024 10:58:40 [main] [LogUtils] - count_totalTCs: 2
+[INFO] 12-08-2024 10:58:40 [main] [LogUtils] - count_passedTCs: 2
+[INFO] 12-08-2024 10:58:40 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 12-08-2024 10:58:40 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 12-08-2024 10:58:40 [main] [LogUtils] - ********* RUN STARTED *********
+[INFO] 12-08-2024 10:58:40 [main] [LogUtils] - ********* RUN FINISHED *********
