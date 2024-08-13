@@ -1,0 +1,15 @@
+*.json
+*.txt
+*.class
+*.js
+*.css
+*.html
+*.ico
+*.csv
+*.dumpstream
+*.jar
+*.log
+*.xml
+*.yml
+.allure/
+target/
