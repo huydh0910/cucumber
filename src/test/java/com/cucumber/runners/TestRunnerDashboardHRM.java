@@ -9,19 +9,19 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "src/test/resources/features/Dashboard.feature",
         glue = {
-                "com.cucumber.projects.website.crm.stepdefinitions",
+                "com.cucumber.projects.website.cms.stepdefinitions",
                 "com.cucumber.hooks"
         },
         plugin = {
                 "com.cucumber.hooks.CucumberListener",
                 "pretty",
-                "html:target/cucumber-reports/TestRunnerDashboardHRM.html",
-                "json:target/cucumber-reports/TestRunnerDashboardHRM.json",
+                "html:target/cucumber-reports/cucumber-reports.html",
+                "json:target/cucumber-reports/cucumber-reports.json",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         monochrome = true,
-        tags = "@Regression or @Smoke"
+        tags = "@Dashboard"
 )
 
 public class TestRunnerDashboardHRM extends AbstractTestNGCucumberTests {
