@@ -8,8 +8,6 @@ package com.cucumber.dataprovider;
 import com.cucumber.constants.FrameworkConstants;
 import com.cucumber.helpers.ExcelHelpers;
 import com.cucumber.helpers.SystemHelpers;
-import com.cucumber.projects.website.crm.models.ClientModel;
-import com.cucumber.projects.website.crm.models.SignInModel;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -22,22 +20,22 @@ public final class DataProviderManager {
 
     @Test(dataProvider = "getSignInDataHashTable")
     public void testGetSignInData(Hashtable<String, String> data) {
-        System.out.println("signInData.testCaseName = " + data.get(SignInModel.getTestCaseName()));
-        System.out.println("signInData.username = " + data.get(SignInModel.getEmail()));
-        System.out.println("signInData.password = " + data.get(SignInModel.getPassword()));
-        System.out.println("signInData.expectedTitle = " + data.get(SignInModel.getExpectedTitle()));
-        System.out.println("signInData.expectedError = " + data.get(SignInModel.getExpectedError()));
+//        System.out.println("signInData.testCaseName = " + data.get(SignInModel.getTestCaseName()));
+//        System.out.println("signInData.username = " + data.get(SignInModel.getEmail()));
+//        System.out.println("signInData.password = " + data.get(SignInModel.getPassword()));
+//        System.out.println("signInData.expectedTitle = " + data.get(SignInModel.getExpectedTitle()));
+//        System.out.println("signInData.expectedError = " + data.get(SignInModel.getExpectedError()));
 
     }
 
     @Test(dataProvider = "getClientDataHashTable")
     public void testGetClientData(Hashtable<String, String> data) {
-        System.out.println("clientData.TestCaseName = " + data.get(ClientModel.getTestCaseName()));
-        System.out.println("clientData.CompanyName = " + data.get(ClientModel.getCompanyName()));
-        System.out.println("clientData.OWNER = " + data.get(ClientModel.getOwner()));
-        System.out.println("clientData.Address = " + data.get(ClientModel.getAddress()));
-        System.out.println("clientData.CITY = " + data.get(ClientModel.getCity()));
-        System.out.println("clientData.STATE = " + data.get(ClientModel.getState()));
+//        System.out.println("clientData.TestCaseName = " + data.get(ClientModel.getTestCaseName()));
+//        System.out.println("clientData.CompanyName = " + data.get(ClientModel.getCompanyName()));
+//        System.out.println("clientData.OWNER = " + data.get(ClientModel.getOwner()));
+//        System.out.println("clientData.Address = " + data.get(ClientModel.getAddress()));
+//        System.out.println("clientData.CITY = " + data.get(ClientModel.getCity()));
+//        System.out.println("clientData.STATE = " + data.get(ClientModel.getState()));
 
     }
 

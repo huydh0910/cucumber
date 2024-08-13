@@ -1,14 +1,13 @@
-Feature: HRM dashboard page
+Feature: CMS dashboard page
 
-  Background: User is logged to the HRM system
-    Given User logged in with email "admin_example" and password "123456"
+  Background: User is logged to the CRM system successfully
+    Given User navigate and login with valid account
 
-  @Regression @device_Window_11 @author_QC
-  Scenario Outline: Open menu
+  @Regression @device_Window_11 @QC_TEAM @Dashboard
+  Scenario Outline: Open menu and side menu All product
     Given User navigate to dashboard
-    When User click "<menu>"
-    Then The user redirect to this page "<menu>"
+    When User click menu "<menu>" and "<subMenu>"
+    Then User redirect to this page "<header>"
     Examples:
-      | menu     |
-      | Projects |
-      | Tasks    |
+      | menu     | subMenu         | header          |
+      | Products | Add New Product | All New Product |

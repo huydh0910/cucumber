@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
         },
         monochrome = true,
         //tags = "@Regression or @Smoke"
-        tags = "@login"
+        tags = "@Regression"
 )
 
 public class TestRunnerLoginCMS extends AbstractTestNGCucumberTests {

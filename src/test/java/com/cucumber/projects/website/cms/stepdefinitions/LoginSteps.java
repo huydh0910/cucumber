@@ -19,6 +19,12 @@ public class LoginSteps {
         commonPageCMS = testContext.getCommonPage();
     }
 
+    @Given("User navigate and login with valid account")
+    public void userNavigateToLoginPageForAdmin() {
+        WebUI.openWebsite("https://cms.anhtester.com/login");
+        commonPageCMS = loginPage.loginCMS();
+    }
+
     @Given("User navigate to Login Page for Admin {string}")
     public void userNavigateToLoginPageForAdmin(String url) {
         WebUI.openWebsite(url);

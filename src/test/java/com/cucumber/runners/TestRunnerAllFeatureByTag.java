@@ -9,9 +9,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {
-                "com.cucumber.projects.website.crm.stepdefinitions",
                 "com.cucumber.projects.website.cms.stepdefinitions",
-                "com.cucumber.projects.website.hrm.stepdefinitions",
                 "com.cucumber.hooks"
         },
         plugin = {
