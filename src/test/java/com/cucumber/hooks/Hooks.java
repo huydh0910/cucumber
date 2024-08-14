@@ -6,6 +6,7 @@ import com.cucumber.helpers.CaptureHelpers;
 import com.cucumber.helpers.PropertiesHelpers;
 import com.cucumber.helpers.SystemHelpers;
 import com.cucumber.keywords.WebUI;
+import com.cucumber.listeners.TestListener;
 import com.cucumber.report.AllureManager;
 import com.cucumber.utils.EmailSendUtils;
 import com.cucumber.utils.LogUtils;
@@ -13,6 +14,7 @@ import com.cucumber.utils.ReportUtils;
 import com.cucumber.utils.ZipUtils;
 import io.cucumber.java.*;
 import org.apache.commons.io.FileUtils;
+import org.testng.annotations.Listeners;
 
 import java.io.File;
 import java.io.IOException;
