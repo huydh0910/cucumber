@@ -22,8 +22,8 @@ public interface Configuration extends Config {
     @Key("HEADLESS")
     Boolean HEADLESS();
 
-    @Key("URL_CRM")
-    String URL_CRM();
+    @Key("URL_CMS")
+    String URL_CMS();
 
     @Key("REMOTE_URL")
     String REMOTE_URL();
@@ -33,5 +33,8 @@ public interface Configuration extends Config {
 
     @Key("EXCEL_DATA_FILE_PATH")
     String EXCEL_DATA_FILE_PATH();
+
+    @Key("extent.reporter.spark.reportName")
+    String REPORT_NAME();
 
 }
