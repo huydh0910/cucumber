@@ -12,7 +12,7 @@ import com.pengrad.telegrambot.response.SendResponse;
 
 import java.io.File;
 
-public class TelegramManager {
+public class  TelegramManager {
     private static String Token = FrameworkConstants.TELEGRAM_TOKEN;
     // https://api.telegram.org/bot18745845:AAHtlc_TL7zlPEABHuTJy3J72XumY5LxWcE/getUpdates
     private static String ChatId = FrameworkConstants.TELEGRAM_CHATID;
